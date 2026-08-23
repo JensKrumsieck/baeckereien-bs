@@ -345,7 +345,7 @@
   const pageTitle = "Bäckereien in Braunschweig – Karte & Routenplaner";
   const pageDescription =
     "Alle Bäckereien in Braunschweig auf einer interaktiven Karte. Adresse eingeben oder Standort nutzen und die nächste Bäckerei zu Fuß erreichen.";
-  const canonicalUrl = "https://backen.jenskrumsieck.de/";
+  const canonicalUrl = "https://broetchen.jenskrumsieck.de/";
 </script>
 
 <svelte:head>

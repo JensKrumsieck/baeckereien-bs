@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://backen.jenskrumsieck.de/sitemap.xml
+Sitemap: https://broetchen.jenskrumsieck.de/sitemap.xml
