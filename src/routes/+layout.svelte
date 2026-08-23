@@ -1,8 +1,19 @@
 <script lang="ts">
   import "../app.css";
   import favicon from "$lib/assets/favicon.svg";
-
+  import { onMount } from "svelte";
+  import { dev } from "$app/environment";
+  import * as Swetrix from "swetrix";
   let { children } = $props();
+
+  onMount(() => {
+    Swetrix.init("lp61TqcIrztc", {
+      devMode: dev,
+      disabled: dev,
+      apiURL: "https://api.analytics.jenskrumsieck.de/log",
+    });
+    Swetrix.trackViews();
+  });
 </script>
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
