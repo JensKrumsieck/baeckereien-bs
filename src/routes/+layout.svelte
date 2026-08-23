@@ -7,7 +7,7 @@
   let { children } = $props();
 
   onMount(() => {
-    Swetrix.init("lp61TqcIrztc", {
+    Swetrix.init("NGNIhhjyac3O", {
       devMode: dev,
       disabled: dev,
       apiURL: "https://api.analytics.jenskrumsieck.de/log",
