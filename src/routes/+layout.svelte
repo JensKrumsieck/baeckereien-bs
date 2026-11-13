@@ -1,8 +1,8 @@
 <script lang="ts">
   import "../app.css";
-  import favicon from "$lib/assets/favicon.svg";
+  import favicon from "#lib/assets/favicon.svg";
   import { onMount } from "svelte";
-  import { dev } from "$app/environment";
+  import { dev } from '$app/env';
   import * as Swetrix from "swetrix";
   let { children } = $props();
 

@@ -4,9 +4,9 @@
   import haversineDistance from "haversine-distance";
   import "leaflet/dist/leaflet.css";
   import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
-  import bakeriesCsv from "$lib/assets/bakeries_braunschweig.csv?raw";
-  import districtsRaw from "$lib/assets/districts.geojson?raw";
-  import residentialCsv from "$lib/assets/residential_braunschweig.csv?raw";
+  import bakeriesCsv from "#lib/assets/bakeries_braunschweig.csv?raw";
+  import districtsRaw from "#lib/assets/districts.geojson?raw";
+  import residentialCsv from "#lib/assets/residential_braunschweig.csv?raw";
 
   interface Bakery {
     name: string;
